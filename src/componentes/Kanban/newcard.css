@@ -1,0 +1,40 @@
+.new-card-container {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 9px;
+    background: white;
+    border: 0px solid;
+    border-radius: 12px;
+    -webkit-box-shadow: 4px 4px 7px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 7px -1px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 7px -1px rgba(0,0,0,0.3);
+}
+
+img {
+    width: 26px;
+    height: 26px;
+}
+
+.newcard {
+    width: 260px;
+    font-weight: 700;
+    font-size: large;
+    color: black;
+    border: 1px solid #575757;
+}
+
+.conteudoTexto {
+    font-weight: 400;
+    padding: 1em;
+    border-radius: 12px;
+    height: 100px;
+    width: 268px;
+    resize: none;
+}
+
+.imagemMeio {
+    margin-top: 1em;
+    text-align: center;
+}

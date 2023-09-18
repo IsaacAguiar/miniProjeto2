@@ -1,0 +1,60 @@
+.login-container {
+    padding: 2em;
+    margin: 10em auto;
+    height: 370px;
+    width: 242px;
+    color: white;
+    background-color: #3A72F8;
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+label {
+    font-weight: 400;
+}
+
+input {
+    background: #FFFFFF;
+    width: 220px;
+    height: 12px;
+    padding: 1em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0px solid;
+    border-radius: 12px;
+}
+
+.entrar {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px solid;
+    border-radius: 16px;
+    background: #0A2668;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+
+.entrar:hover, .cadastrar:hover {
+    background: #041742;
+}
+
+.entrar-Cadastro {
+    text-align: center;
+}

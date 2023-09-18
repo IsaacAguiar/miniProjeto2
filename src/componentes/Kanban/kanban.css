@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    background: #3A72F8;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.ola {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sair {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.containers-bloco {
+    display: flex;
+    height: 100vh;
+    margin-top: 6em;
+    margin-left: 10em;
+    gap: 40px;
+}
+
+.titulos {
+    color: #3A72F8;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1.2em;
+    margin-left: 1em;
+}
+
+.containers {
+    width: 350px;
+    height: 100vh;
+    border-radius: 12px;
+    background: #EAEAEA;
+}

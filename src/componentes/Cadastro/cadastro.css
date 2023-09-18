@@ -1,0 +1,21 @@
+.cadastro-container {
+    padding: 2em;
+    margin: 10em auto;
+    height: 540px;
+    width: 242px;
+    color: white;
+    background-color: #3A72F8;
+    border-radius: 20px;
+}
+
+.cadastrar {
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px solid;
+    border-radius: 16px;
+    background: #0A2668;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
