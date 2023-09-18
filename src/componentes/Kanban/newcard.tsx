@@ -4,9 +4,12 @@ import axios from 'axios';
 import './newcard.css'
 
 const API_URL = 'https://arnia-kanban.vercel.app';
-const API_KEY = '52a8b954-e25d-4cc5-86e5-c32e92f994bb';
 
-const NewCardComponent: React.FC = () => {
+interface NewCardProps {
+    onCardAdded: () => void;
+}
+
+const NewCardComponent: React.FC<NewCardProps> = ({ onCardAdded }) => {
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
 
@@ -18,11 +21,11 @@ const NewCardComponent: React.FC = () => {
                 status: 'to-do'
             }, {
                 headers: {
-                    'x-api-key': API_KEY
+                    'Authorization': 'Bearer ' + localStorage.getItem('USER_TOKEN')
                 }
             });
             
-            window.location.reload();
+            onCardAdded();
         } catch (error) {
             console.error('Error adding card:', error);
         }
@@ -44,7 +47,6 @@ const NewCardComponent: React.FC = () => {
             <div className='imagemMeio'>
                 <img src={maisImg} alt="Add Card" onClick={handleAddCard} />
             </div>
-            
         </div>
     );
 };
